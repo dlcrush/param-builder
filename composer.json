@@ -1,0 +1,19 @@
+{
+    "name": "crush/params-builder",
+    "description": "Utility for managing URL query params",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Crush",
+            "email": "dlcrush@protonmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Crush\\Http\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    }
+}
